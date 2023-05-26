@@ -235,3 +235,190 @@ else if(num%2==0)
      printf("tamilnadu...");
  }
 }
+
+11)CAR RACE
+#include <stdio.h>
+
+
+
+int main() {
+
+  // Write C code here
+
+  int car;
+
+  printf("car num:");
+
+  scanf("%d",&car);
+
+  if(243%car==0){
+
+    printf("road a\n");
+
+  }
+
+  else if(135%car==0){
+
+    printf("road b\n");
+
+  }
+
+  else if(567%car==0){
+
+    printf("road c\n");
+
+  }
+
+  else{
+
+    printf("no road\n");
+
+  }
+
+  return 0;
+
+}  
+
+IF STATEMENT VERSION 4
+SYNTAX
+if(condition)
+{
+    if(condition
+    {
+        
+    }
+}
+else
+{
+    
+}
+
+12)SELECT A COURSE
+#include <stdio.h>
+
+int main()
+{
+   int num=12;
+   if(num>6)
+   {
+       if(num%2==0)
+       {
+           printf("core python");
+       }
+       else
+       {
+           printf("core java");
+       }
+   }
+   else
+   {
+       printf("python..");
+   }
+   return 0;
+}
+
+13)CHECKING BANK BALANCE
+#include <stdio.h>
+
+int main()
+{
+  int accBal=2000;
+  int WDamt=1571;
+  
+  if(accBal>WDamt)
+  {
+      if(WDamt%100==0)
+      {
+          printf("withdraw success..");
+      }
+      else
+      {
+          printf("invalid denamination..");
+      }
+  }
+  else
+  {
+      printf("insufficient balace..");
+  }
+  return 0;
+}
+
+14)ELIGIBLE FOR BACHELOR
+#include <stdio.h>
+
+int main()
+{
+  char gender='M';
+  int age =23;
+  
+  if(gender == 'M' || gender=='m')
+  {
+      if(age>=18)
+      {
+          printf("eligible bachelore...");
+      }
+      else
+      {
+          printf("not eligible bachelore...");
+      }
+  }
+  else if(gender == 'F' || gender=='f')
+  {
+     if(age>=18)
+      {
+          printf("eligible spinster...");
+      }
+      else
+      {
+          printf("not eligible spinster...");
+      }
+  }
+  else
+  {
+      printf("please check the given details...");
+  }
+}
+ 
+ SWITCH CASE
+ SYNTAX
+ switch(expression)
+{
+    case 1:
+         //code to be executed;
+         break;
+    case 2:
+         //code to be executed;
+         break;
+         .....
+    default:
+         code to be executed if all cases are not matched;
+}
+
+15)
+#include <stdio.h>
+
+int main()
+{
+   int num=5;
+   switch(num)
+   {
+       case 1:
+       printf("tamil");
+       break;
+       
+       case 2:
+       printf("english");
+       break;
+       
+       case 3:
+       printf("hindi");
+       break;
+       
+       case 4:
+       printf("korean");
+       break;
+       
+       default:
+       printf("please enter the valid number");
+   }
+}
