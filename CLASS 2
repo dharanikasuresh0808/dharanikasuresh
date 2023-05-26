@@ -1,0 +1,99 @@
+1)FIND THE NUMBER EVEN OR ODD
+/*
+if(condition)
+{
+    
+}
+*/
+
+#include<stdio.h>
+int main()
+{
+    int num=21;
+    
+   if(num%2==0)
+   {
+       printf("even no");
+   }
+   else
+   {
+       printf("odd no");
+   }
+   return 0;
+}
+2)FIND THE MINOR OR MAJOR
+/*
+if(condition)
+{
+    
+}
+*/
+
+#include<stdio.h>
+int main()
+{
+    int age=21;
+    
+   if(age>18)
+   {
+       printf("major");
+   }
+   else
+   {
+       printf("minor");
+   }
+   return 0;
+}
+3)IF STATEMENT VERSION 1
+/*
+if(condition)
+{
+    
+}
+*/
+
+#include<stdio.h>
+int main()
+{
+    int num=7;
+    printf("program starts...\n");
+    if(num>5)
+   {
+       printf("dharani\n");
+   }
+      printf("program ends...\n");
+     
+}
+4)FIND THE NUMBER POSITIVE OR NEGATIVE
+  #include<stdio.h>
+int main()
+{
+   int num=8;
+   
+   if(num>0)
+   {
+       printf("positve number");
+   }
+   else
+   {
+       printf("negative number");
+   }
+   return 0;
+}
+5)FIND CODE FOR BANL BALANCE
+#include<stdio.h>
+int main()
+{
+   float accBal=20000.00;
+   float WDAmt=1200.00;
+   
+   if(accBal>WDAmt)
+   {
+       printf("withdraw success...");
+   }
+   else
+   {
+       printf("insufficient balance...");
+   }
+   return 0;
+}
