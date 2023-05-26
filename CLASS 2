@@ -1,3 +1,4 @@
+IF ELSE VERSION 1
 1)FIND THE NUMBER EVEN OR ODD
 /*
 if(condition)
@@ -21,6 +22,51 @@ int main()
    }
    return 0;
 }
+
+i)
+#include <stdio.h>
+
+int main() 
+{
+   int num=7;
+   printf("progaram starts...\n");
+   if(num>5)
+   {
+       printf("dharanika\n");
+   }
+   printf("program ends...\n");
+}
+
+ii)
+#include <stdio.h>
+
+int main() 
+{
+   int num=15;
+   printf("progaram starts...\n");
+   if(num%2==0 && num%3==0)
+   {
+       printf("dharanika\n");
+   }
+   printf("program ends...\n");
+}
+
+iii)
+#include <stdio.h>
+
+int main() 
+{
+   int num=15;
+   printf("progaram starts...\n");
+   if(num%2==0 || num%3==0)
+   {
+       printf("dharanika\n");
+   }
+   printf("program ends...\n");
+}
+
+IF ELSE STATEMENT 2
+
 2)FIND THE MINOR OR MAJOR
 /*
 if(condition)
@@ -44,27 +90,8 @@ int main()
    }
    return 0;
 }
-3)IF STATEMENT VERSION 1
-/*
-if(condition)
-{
-    
-}
-*/
 
-#include<stdio.h>
-int main()
-{
-    int num=7;
-    printf("program starts...\n");
-    if(num>5)
-   {
-       printf("dharani\n");
-   }
-      printf("program ends...\n");
-     
-}
-4)FIND THE NUMBER POSITIVE OR NEGATIVE
+3)FIND THE NUMBER POSITIVE OR NEGATIVE
   #include<stdio.h>
 int main()
 {
@@ -80,7 +107,8 @@ int main()
    }
    return 0;
 }
-5)FIND CODE FOR BANL BALANCE
+
+4)FIND CODE FOR BANL BALANCE
 #include<stdio.h>
 int main()
 {
@@ -97,7 +125,8 @@ int main()
    }
    return 0;
 }
-6)BOOKING A TRAIN TICKET
+
+5)BOOKING A TRAIN TICKET
 #include<stdio.h>
 int main()
 {
@@ -116,4 +145,71 @@ int main()
  printf("n.daapthi");
   }
   return 0;
+}
+
+6)FIND A CODE FOR DRESS PURCHASE DISCOUNT
+#include<stdio.h>
+int main()
+ {
+
+  int a;
+
+  printf("Enter the purchase of rupees in a:");
+
+  scanf("%d",&a);
+
+  if (a<1000)
+
+  {
+
+    printf("0%% Discount");
+
+     
+
+  }
+
+  else if (a>1000 && a<5000 )
+
+  {
+
+    printf("50%% Discount");
+
+     
+
+  }
+
+  else
+
+  {
+
+    printf("75%% Discount");
+
+  }
+
+  return 0;
+
+}
+
+7)ELSE IF STATEMENT
+#include <stdio.h>
+
+int main()
+{
+    int num =121;
+    if(num%2==0 && num%3==0)
+  {
+      printf("chandigarh...");
+  }
+else if(num%2==0)
+ {
+     printf("punjab...");
+ }
+ else if(num%3==0)
+ {
+     printf("delhi...");
+ }
+ else
+ {
+     printf("tamilnadu...");
+ }
 }
