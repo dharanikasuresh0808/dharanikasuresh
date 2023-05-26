@@ -97,3 +97,23 @@ int main()
    }
    return 0;
 }
+6)BOOKING A TRAIN TICKET
+#include<stdio.h>
+int main()
+{
+  int age=45;
+  
+  if(age<=12)
+  {
+  printf("child ticket");
+  }
+  else if(age>13 && age<60)
+  {
+  printf("normal ticket");
+  }
+  else
+  {
+ printf("n.daapthi");
+  }
+  return 0;
+}
