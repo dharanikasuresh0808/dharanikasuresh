@@ -420,10 +420,4 @@ int main() {
       printf("\n");
    }
 }
-while loop
-syntax
-while(condition)
-{ 
-  //body
-  ++/--
-}
+
