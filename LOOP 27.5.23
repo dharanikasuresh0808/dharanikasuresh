@@ -234,3 +234,53 @@ int main() {
         num++;
     }
 }
+
+14)PROBLEM
+#include <stdio.h>
+int main()
+{
+  int no=123;
+  int rem=0;
+  int sum=0;
+  while (no > 0)
+  {
+    rem = no % 10;
+    sum = sum + rem;
+    no = no / 10;
+  }
+  printf("\nThe sum of digit is %d", sum);
+  return 0;
+}
+
+11)COUNT THE DIGITS
+#include <stdio.h>
+int main()
+{
+  int no=763445;
+  int rem=0;
+ int count=0;
+  while (no > 0)
+  {
+    rem = no%10;
+    count++;
+    no=no/10;
+  }
+  printf(" %d",count);
+}
+
+12)BASE POWER
+#include <stdio.h>
+int main()
+{
+  int base=2;
+  int power=3;
+ int result=1;
+ 
+  while (power>0)
+  {
+    result=(base*result);
+    power--;
+  }
+  printf("%d",result);
+}
+  
