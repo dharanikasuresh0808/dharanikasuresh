@@ -1,3 +1,294 @@
+1)STAR PATTERN A
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || j==n-1 || i==n/2 )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+      
+2)STAR PATTERN B
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || j==n-1 || i==n/2|| i==n-1 )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+
+3)STAR PATTEERN C
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || i==n-1)
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+
+4)STAR PATTERN D
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || j==n-1 || j==0|| i==n-1 )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+  5)STAR PATTERN E
+  #include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || i==n/2 || j==0|| i==n-1 )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+  
+  6)STAR PATTERN F
+  #include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || i==n/2 || j==0  )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+
+7)STAR PATTERN G
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==0 || i==n-1 && j<=n/2 || j==n/2 && i>=n/2 || i==n/2 && j>=n/2 || j==n-1 && i>=n/2 )
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+ 
+ 8)STAR PATTERN H
+ #include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(j==0 || j==n-1 || i==n/2)
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+      
+9)STAR PATTERN I
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || i==n-1 || j==n/2)
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+10)STAR PATTERN J
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    
+    for(int i=0;i<n ;i++)
+    {
+        for(int j=0;j<n;j++)
+        {          
+            if(i==0 || j==n/2 || i==n-1 && j<=n/2)
+            {
+            printf("* ");
+            }
+            else
+            {
+            printf("  ");
+            }
+            
+        }
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
+      
+         
+   
+ 
+   
 1)STAR PATTERN X
 #include<stdio.h>
 int main()
