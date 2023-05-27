@@ -284,3 +284,25 @@ int main()
   printf("%d",result);
 }
   
+13) do while
+syntax
+while(condition)
+{
+    //body
+    ++/--
+}
+
+14)example
+#include <stdio.h>
+
+int main()
+{
+    int x=5;
+    do
+    {
+        printf("java\n");
+        x--;
+    }
+    while(x>0);
+    return 0;
+}
