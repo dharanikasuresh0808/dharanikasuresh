@@ -235,5 +235,23 @@ int main()
     printf ("%d\n",sum);
     return 0;
 }
+
+15)find even or odd numbers
+#include <stdio.h>
+int main() 
+{
+  int a[5]={2,4,8,9,15};
+  for(int i=0;i<5;i++)
+  {
+    if(a[i]%2==0)
+    {
+      printf("The even no is:%d\n",a[i]);
+    }
+    else if(a[i]%2==1)
+    {
+     printf("The odd no is:%d\n",a[i]);
+    }
+  }
+}
     
 
