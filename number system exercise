@@ -1,0 +1,266 @@
+1)digit count of given number
+
+#include <stdio.h>
+
+int main()
+
+{
+
+ int no=763445;
+
+ int rem=0;
+
+ int count=0;
+
+ while (no > 0)
+
+ {
+
+  rem = no%10;
+
+  count++;
+
+  no=no/10;
+
+ }
+
+ printf(" %d",count);
+
+}
+
+
+
+2)sum of digits of givn number
+
+#include <stdio.h>
+
+int main()
+
+{
+
+ int no=763445;
+
+ int rem=0;
+
+ int count=0;
+
+ while (no > 0)
+
+ {
+
+  rem = no%10;
+
+  count++;
+
+  no=no/10;
+
+ }
+
+ printf(" %d",count);
+
+}
+
+
+
+3)reverse of given number
+
+#include<stdio.h>
+
+int main()
+
+{
+
+ int n;
+
+ scanf("%d",&n);
+
+ int num[6];
+
+ for(int i=0;i<n;i++)
+
+ {
+
+  scanf("%d",&num[i]);
+
+ }
+
+ for(int i=n-1;i>=0;i--)
+
+ {
+
+  printf("%d",num[i]);
+
+ }
+
+ return 0;
+
+}
+
+
+
+4)power of given number
+
+#include <stdio.h>
+
+int main()
+
+{
+
+ int base=2;
+
+ int power=3;
+
+ int result=1;
+
+ 
+
+ while (power>0)
+
+ {
+
+  result=(base*result);
+
+  power--;
+
+ }
+
+ printf("%d",result);
+
+}
+
+
+
+5)prime number of the given number
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+int n=97;
+
+int c=10;
+
+
+
+for(int i=1; i<=n; i++)
+
+{
+
+  if(n%i==0)
+
+  c++;
+
+}
+
+if(c==2)
+
+{
+
+  printf("prime number...");
+
+}
+
+else
+
+{
+
+   printf(" not a prime number...");
+
+}
+
+}
+
+   
+
+6)palindrome  of given number
+
+#include <stdio.h>
+
+
+
+int main() 
+
+{
+
+  int n=123;
+
+  int rev=0;
+
+  int r;
+
+  int n1=n;
+
+   
+
+  while(n>0)
+
+  {
+
+    r=n%10;
+
+    rev=rev*10+r;
+
+    n=n/10;
+
+  }
+
+  if(n1==rev)
+
+  {
+
+    printf("palindrome...");
+
+  }
+
+  else
+
+  {
+
+    printf(" not a palindrome...");
+
+  }
+
+}
+
+     
+
+7)factorial of given number
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+  int num=5;
+
+  int fact=1;
+
+   
+
+  while(num>0)
+
+  {
+
+    fact=num*fact;
+
+    num--;
+
+  }
+
+  printf("%d",fact);
+
+}
+
+
+
+8)
+
+
+
